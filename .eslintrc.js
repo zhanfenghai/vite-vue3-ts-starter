@@ -1,6 +1,6 @@
 /*
  * @Author: zhanfenghai
- * @LastEditTime: 2021-04-23 15:24:00
+ * @LastEditTime: 2021-04-23 15:50:29
  * @LastEditors: zhanfenghai
  * @Description:
  * @FilePath: \vite-vue-ts-starter\.eslintrc.js
@@ -40,14 +40,14 @@ module.exports = {
   settings: {
     // 'import/resolver': {
     //   node: {
-    //     extensions: ['.js', '.jsx', '.ts', '.tsx']
+    //     extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue']
     //   },
     //   alias: {
     //     map: [
     //       ['@', './src'],
     //       ['@scss', './src/styles']
     //     ],
-    //     extensions: ['.js', '.jsx', '.ts', '.tsx']
+    //     extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue']
     //   },
     //   webpack: {
     //     config: null

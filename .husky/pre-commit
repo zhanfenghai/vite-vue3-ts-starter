@@ -1,11 +1,4 @@
-###
- # @Author: zhanfenghai
- # @LastEditTime: 2021-04-23 13:55:16
- # @LastEditors: zhanfenghai
- # @Description: 
- # @FilePath: \vite-vue-ts-starter\.husky\pre-commit
-### 
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+npm test

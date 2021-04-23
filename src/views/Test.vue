@@ -1,6 +1,6 @@
 <!--
  * @Author: zhanfenghai
- * @LastEditTime: 2021-04-23 14:37:09
+ * @LastEditTime: 2021-04-23 15:31:44
  * @LastEditors: zhanfenghai
  * @Description:
  * @FilePath: \vite-vue-ts-starter\src\views\test.vue
@@ -17,7 +17,7 @@
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
-  name: 'Vuex',
+  name: 'Test',
   setup() {
     const count = ref<number>(0)
     const increment = () => {
