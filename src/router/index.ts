@@ -1,6 +1,6 @@
 /*
  * @Author: zhanfenghai
- * @LastEditTime: 2021-04-23 14:59:04
+ * @LastEditTime: 2021-04-23 16:42:18
  * @LastEditors: zhanfenghai
  * @Description:
  * @FilePath: \vite-vue-ts-starter\src\router\index.ts
@@ -20,6 +20,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/others',
     name: 'Others',
     component: Others
+  },
+  {
+    path: '/setup',
+    name: 'Setup',
+    component: () => import('@/views/setup.vue')
   }
 ]
 
